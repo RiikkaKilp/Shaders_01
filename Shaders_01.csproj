@@ -81,8 +81,12 @@
     <Compile Include="Assets\Scripts\MovingPlatform.cs" />
     <Compile Include="Assets\Scripts\MovingPlatform1.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\ProjectileMovement.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Shaders\NoiceOffset.shader" />
+    <None Include="Assets\Shaders\Unlit.shader" />
     <None Include="Assets\SimpleDeformatino.shader" />
     <None Include="Assets\UnlitShader.shader" />
   </ItemGroup>
