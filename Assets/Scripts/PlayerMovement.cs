@@ -5,20 +5,14 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour {
 
     public int speed;
-
-	// Use this for initialization
-	void Start ()
-    {
-		
-	}
 	
 	// Update is called once per frame
 	void Update ()
     {
-        var x = Input.GetAxis("Horizontal") * Time.deltaTime * 150.0f;
-        var z = Input.GetAxis("Vertical") * Time.deltaTime * 3.0f;
+        var x = Input.GetAxis("Horizontal") * Time.deltaTime *speed;
+        var z = Input.GetAxis("Vertical") * Time.deltaTime * speed;
 
-        //transform.Rotate(0, x, 0);
-        transform.Translate(x, z, 0);
+        //transform.Rotate(0, 0, 0);
+        transform.Translate(x, 0, z);
     }
 }

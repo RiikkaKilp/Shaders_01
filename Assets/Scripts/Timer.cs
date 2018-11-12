@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour {
 
-    float timer = 0;
-    bool timerStarted = false;
+    public float timer = 0;
+    public bool timerStarted = false;
 
     public void Update()
     {
@@ -20,6 +20,11 @@ public class Timer : MonoBehaviour {
         {
             Debug.Log("The time says 5! Not five o' clock, just five.");
         }
+    }
+
+    public float GetTime()
+    {
+        return timer;
     }
 
     public void StartTimer()

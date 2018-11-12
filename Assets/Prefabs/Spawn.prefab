@@ -81,7 +81,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d80b187503ddbd24b989ab7e2c220d78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: {fileID: 0}
   projectile: {fileID: 1085830358658288, guid: d3ce21c1edc28cf409234102b4f9714e, type: 2}
+  detector:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!212 &212590701028145594
 SpriteRenderer:
   m_ObjectHideFlags: 1
